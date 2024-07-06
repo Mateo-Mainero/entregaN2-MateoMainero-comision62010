@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navMenu.className = 'nav-menu';
     
         const logo = document.createElement('img');
-        logo.src = '../img/Icono3.png'; 
+        logo.src = './img/Icono3.png'; 
         logo.alt = 'logo';
         logo.className = 'nav-logo';       
         nav.appendChild(logo);
